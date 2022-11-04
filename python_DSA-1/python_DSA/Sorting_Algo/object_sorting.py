@@ -26,7 +26,7 @@ nb8 = Notebooks('deep learning','shiv',800)
 nb9 = Notebooks('AI','Mayank',500)
 
 notebooks = [nb0,nb1,nb2,nb3,nb4,nb5,nb6,nb7,nb8,nb9]
-print(Notebooks)
+print(notebooks)
 # +++++++++++++++++++ OUTPUT ++++++++++++++++++++
 """
 [notebook <"Yogesh/python", 1000 likes>,
