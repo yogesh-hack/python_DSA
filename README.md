@@ -88,4 +88,4 @@
   ✅ Rabin-Karp Algorithm
 
 
-![images]([4th year] Roadmap to Dream Placement-1.png)
+![images](https://github.com/yogesh-hack/python_DSA/blob/main/python_DSA-1/%5B4th%20year%5D%20Roadmap%20to%20Dream%20Placement-1.png?raw=true)
