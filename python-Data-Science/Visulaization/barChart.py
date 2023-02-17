@@ -17,3 +17,10 @@ df.set_index('date', inplace=True)
 (df.groupby('month')['cases'].sum()).plot(kind="bar")
 
 plt.savefig('plot.png')
+
+# We can also plot multiple columns.
+# The stacked property can be used to specify if the bars should be stacked on top of each other.
+
+df = df.groupby('month')[['cases', 'deaths']].sum()
+df.plot(kind="bar", stacked=True)
+plt.savefig('plot2.png')
